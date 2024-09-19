@@ -1,4 +1,4 @@
-const PASSWORD = 'yourpassword'; // Set your password here
+const PASSWORD = '2007'; // Set your password here
 
 function login() {
     const passwordInput = document.getElementById('password').value;
