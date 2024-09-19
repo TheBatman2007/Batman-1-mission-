@@ -1,9 +1,9 @@
-const PASSWORD = 2007 ; // Set your password here
+const PASSWORD = 2007;// Set your password here
 
 function login() {
     const passwordInput = document.getElementById('password').value;
     const errorElement = document.getElementById('login-error');
-    if (passwordInput === PASSWORD) {
+    if (passwordInput === 2007) {
         document.getElementById('login-form').style.display = 'none';
         document.getElementById('app').style.display = 'block';
         errorElement.textContent = '';
