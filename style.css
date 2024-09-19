@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#login-form {
+    margin: 50px;
+}
+
+#goal-section {
+    margin: 20px;
+}
+
+#today-goal {
+    font-size: 24px;
+    color: neon;
+    animation: neonAnimation 1.5s infinite alternate;
+}
+
+@keyframes neonAnimation {
+    from {
+        text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f, 0 0 20px #00f, 0 0 25px #00f, 0 0 30px #00f, 0 0 35px #00f;
+    }
+    to {
+        text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0;
+    }
+}
